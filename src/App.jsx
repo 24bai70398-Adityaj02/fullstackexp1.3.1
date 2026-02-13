@@ -56,7 +56,7 @@ const App = () => {
     // Mock API call
     setTimeout(() => {
       setLoading(false);
-      if (formData.email === "admin@example.com" && formData.password === "Password123") {
+      if (formData.email === "24bai70398@cuchd.in" && formData.password === "Aditya123") {
         setStatus('success');
         setFormData({ email: '', password: '' }); 
       } else {
